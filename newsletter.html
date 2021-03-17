@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/title-logo.svg">
+</head>
+
+<body>
+  <!-- The newsletter page is like consultation with the instructor, you can e-mail here and browse some personal contents of the author -->
+
+  <nav class="fixed">
+    <a class="nav-logo" href="index.html"><img src="images/logo.svg" alt="logo" class="logo"></a>
+    <ul class="menu">
+      <li class="menu-item"><a href="learn.html" class="menu-link">learn</a></li>
+      <li class="menu-item"><a href="board.html" class="menu-link">board</a></li>
+      <li class="menu-item"><a href="newsletter.html" class="menu-link">newsletter</a></li>
+      <li class="menu-item"><a href="tournaments.html" class="menu-link">tournaments</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <label class="switch">
+      <input type="checkbox" id="toggle" class="toggle">
+      <span class="slider round"></span>
+    </label>
+    <div class="newsletter">
+
+      <div class="learn-content-title">
+        <h1>Ahedres Publishing</h1>
+        <p>Ahedres is the tagalog term for chess. Here you can see the latest updates and it is available to everyone.
+          You
+          can sign up and receive latest news. Past newsletters are
+          available in the archives.</p>
+      </div>
+
+      <div class="learn-content-topic">
+        <h2>Sign up to receive new ideas in chess</h2>
+        <p>My newsletter is a way to start your week to learn chess. We will constantly update you in systematic
+          learning
+          in chess. Here you will find the basic principles in chess, develop your strategy and think abstractly.</p>
+      </div>
+
+      <div class="learn-content-topic">
+        <label>
+          <input id="automail" style="width: 500px; height: 50px; font-size: 1.5rem;" type="email" placeholder="email"
+            onkeypress="press()">
+          <button class="form-button1 " onclick="validate()">subscribe</button>
+        </label>
+        <p id="demo"></p>
+        <p class="note">Note: I am not a professional chess instructor</p>
+        <p>The goal of each newsletter is to share my wisdom in chess on the web. Here are my personal experiences in
+          playing chess in the long run. Some of the information that write here are from my learning from different
+          books.</p>
+      </div>
+
+      <div class="learn-content-topic">
+        <h2>Archives</h2>
+        <table>
+          <tr>
+            <th>Date</th>
+            <th>File</th>
+          </tr>
+          <tr>
+            <td>November 7, 2020</td>
+            <td><a target="_blank" class="archive" href="contents/Archive1-KnightsorBishops.pdf">Archive #1</a></td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-name">
+      <a class="copyright" href="index.html">© 2020 Leif Gio Villanueva | leifdomain
+      </a>
+    </div>
+    <div class="footer-links">
+      <ul class="footer-links-a">
+        <li>
+          <a class="link-footer" href="https://www.youtube.com/channel/UCQykkb9QWbNoQpNeJmcPTRA?view_as=subscribe"
+            target="_blank">youtube
+          </a>|
+        </li>
+        <li>
+          <a class="link-footer" href="https://lichess.org/@/Leifgio" target="_blank">lichess </a>|
+        </li>
+        <li>
+          <a class="link-footer" href="https://www.chess.com/member/leifgio" target="_blank">chess.com</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>

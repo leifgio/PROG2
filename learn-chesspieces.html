@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn - Basics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/title-logo.svg">
+</head>
+
+<body>
+
+    <nav class="fixed">
+        <a class="nav-logo" href="index.html"><img src="images/logo.svg" alt="logo" class="logo"></a>
+        <ul class="menu">
+            <li class="menu-item"><a href="learn.html" class="menu-link">learn</a></li>
+            <li class="menu-item"><a href="board.html" class="menu-link">board</a></li>
+            <li class="menu-item"><a href="newsletter.html" class="menu-link">newsletter</a></li>
+            <li class="menu-item"><a href="tournaments.html" class="menu-link">tournaments</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <label class="switch">
+            <input type="checkbox" id="toggle" class="toggle">
+            <span class="slider round"></span>
+        </label>
+        <a class="top" href="#" target="_top">back to top</a>
+        <div class="learn">
+
+            <div class="learn-title">
+                <div class="learn-title-title">
+                    <h1>Chess Pieces</h1>
+                    <p>Every chess piece has its own unique capabilites. To be a better chess player you must understand
+                        their
+                        purpose.
+                        Here we will learn the movement, starting postition and additional information about chess
+                        pieces
+                    </p>
+                    <p>Here are the six different chess pieces:</p>
+
+                    <ul class="learn-content-anchor">
+                        <li><a class="anchor" href="#pawn"><img class="anchorImage" src="images/pawnBlack.svg"
+                                    alt="pawn">Pawn</a>
+                        </li>
+                        <li><a class="anchor" href="#rook"><img class="anchorImage" src="images/rookBlack.svg"
+                                    alt="rook">Rook</a>
+                        </li>
+                        <li><a class="anchor" href="#knight"><img class="anchorImage" src="images/knightBlack.svg"
+                                    alt="knight">Knight</a>
+                        </li>
+                        <li><a class="anchor" href="#bishop"><img class="anchorImage" src="images/bishopBlack.svg"
+                                    alt="bishop">Bishop</a>
+                        </li>
+                        <li><a class="anchor" href="#queen"><img class="anchorImage" src="images/queenBlack.svg"
+                                    alt="queen">Queen</a>
+                        </li>
+                        <li id="pawn"><a class="anchor" href="#king"><img class="anchorImage" src="images/kingBlack.svg"
+                                    alt="king">King</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>Pawn </h2>
+                    <p>The pawn is a basic piece in chess and each player starts with eight pawns. Each pawns worth 1
+                        point.
+                        The
+                        starting position of the pawns are on the second rank which is in front of the minor and major
+                        pieces.
+                    </p>
+                    <h3>Review</h3>
+                    <p>The pawn is the weakest piece on the game, but in the opening part it is very important. It is
+                        used
+                        to
+                        control
+                        the central squares. Later on the pawn will serve as a supporting piece. It is very important in
+                        a
+                        game
+                        because a player can win with only one pawn advantage</p>
+                    <h3>Movement</h3>
+                    <ol class="movement">
+                        <li>The pawn may move forward to unoccupied square and up to two square on its first move</li>
+                        <li>It may capture diagonally in front of adjacent file if it is occupied by opponent's piece
+                        </li>
+                        <li>En passant' capture is applicable only if a pawn attacking square is passed by the opponents
+                            pawn
+                            which
+                            has advanced two squares</li>
+                        <li>When the pawn reaches the last rank, it must be promoted to a new piece. It may be a new
+                            rook,
+                            knight,
+                            bishop or a queen</li>
+                        <li id="rook">Pawn is the only piece that can't move backwards.</li>
+                    </ol>
+                </div>
+                <div class="learn-content-image">
+                    <img class="move-demo" src="images/pawnMove.svg" alt=" demo">
+                </div>
+            </div>
+
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>Rook</h2>
+                    <p>The rook is major piece in the game each players starts with two rooks each. Rook is only
+                        outranked
+                        by
+                        the
+                        queen
+                        and it is worth 5 points. The starting position of the rook is in the four corners of the board
+                    </p>
+                    <h3>Review</h3>
+                    <p>The rook is a strong piece it commonly used to control open and semi-open files. This piece is
+                        favorable
+                        on
+                        the
+                        end game and weak on early stage of the game. End games are more likely to be an open position
+                        so it
+                        control a
+                        lot of squares.</p>
+                    <h3>Movement</h3>
+                    <ol class="movement">
+                        <li>The rook can move any number of squares horizontally and vertically.</li>
+                        <li id="knight">Can't jump over a piece</li>
+                    </ol>
+                </div>
+                <div class="learn-content-image">
+                    <img class="move-demo" src="images/rookMove.svg" alt="demo">
+                </div>
+            </div>
+
+
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>Knight</h2>
+                    <p>The knight is a minor piece piece in the game and each player has two knights. The starting
+                        position
+                        of
+                        the
+                        knight is on b1/g1 for white and b8/g8 for black. The knight is worth 3 points and it is
+                        considered
+                        as
+                        strong
+                        as bishop</p>
+                    <h3>Review</h3>
+                    <p>The knight is a complex piece in the game and its movement is unique. Knights are slightly
+                        better
+                        from
+                        bishop
+                        on closed position and slightly worse during open games. Knights are better if they control
+                        a
+                        lot of
+                        squares.
+                        So it is better if placed on the middle of the board and it is not ideal on the edge of the
+                        board.
+                    </p>
+                    <h3>Movement</h3>
+                    <ol class="movement">
+                        <li>The knight is the only piece that can jump over another piece.
+                        </li>
+                        <li id="bishop">It may move to the nearest square which stands but not on the same rank, file or
+                            diagonal.
+                            Some
+                            thought of
+                            it as an L pattern.</li>
+                    </ol>
+                </div>
+                <div class="learn-content-image">
+                    <img class="move-demo" src="images/knightMove.svg" alt="demo">
+                </div>
+            </div>
+
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>Bishop</h2>
+                    <p>The bishop is a minor piece in the game and each player starts with two bishops. The first
+                        bishop
+                        control
+                        the
+                        light squares and the other control the dark squares. It is located at c1/f1 for white and
+                        c8/f8
+                        for
+                        black.
+                        The bishop is worth 3 points the same as the knight</p>
+                    <h3>Review</h3>
+                    <p>Bishops control long diagonals in the board. It is a good attacking and defending piece. A
+                        pair
+                        of
+                        bishop
+                        works together if they are not blocked. They can cover the entire board if placed in an
+                        active
+                        square.
+                    </p>
+                    <h3>Movement</h3>
+                    <ol class="movement">
+                        <li>Bishops moves diagonally and never leave the color of it's square.</li>
+                        <li id="queen">Can't jump over a piece</li>
+                    </ol>
+                </div>
+                <div class="learn-content-image">
+                    <img class="move-demo" src="images/bishopMove.svg" alt="demo">
+                </div>
+            </div>
+
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>Queen</h2>
+                    <p>Queens are the most powerful piece on the board. Each player starts with one queen and it is
+                        located
+                        on
+                        d1
+                        square for white and d3 square for black. Queen is a major piece like the rook and it is
+                        worth 9
+                        points.
+                    </p>
+                    <h3>Review</h3>
+                    <p>Since queen is a powerful piece avoid to move it early in the game so it can't be attack by
+                        weaker
+                        pieces.
+                        Try to bring your queen to a safe square and controls many squares. </p>
+                    <h3>Movement</h3>
+                    <ol class="movement">
+                        <li>Queen moves the same as bishops and rooks. </p>
+                        </li>
+                        <li id="king">It can move many squares but can't jump over a piece.</li>
+                    </ol>
+                </div>
+                <div class="learn-content-image">
+                    <img class="move-demo" src="images/queenMove.svg" alt="demo">
+                </div>
+            </div>
+
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>King</h2>
+                    <p>King may not be as powerful as the queen but it is the most important piece on the board.
+                        When
+                        you
+                        lose
+                        your
+                        king you also lost the game. Each player can only have one king in the game. This piece is
+                        located
+                        on e1
+                        for
+                        white and e8 for black.</p>
+                    <h3>Review</h3>
+                    <p>Bring your king to safety in the beggining of the game. The best strategy is to castle before
+                        attacking
+                        your
+                        opponent. In the later part of the game king can be a powerful piece and it can oppose the
+                        king
+                        of
+                        the
+                        other
+                        player. </p>
+                    <h3>Movement</h3>
+                    <ol class="movement">
+                        <li>The king can one square in every direction.</li>
+                        <li>The king should move if it is in check</li>
+                        <li>It can't move to square that is being attacked by enemy piece.</li>
+                        <li>Castling is a single move executed by two pieces. It transfers two squares towards the
+                            rook
+                            and
+                            the
+                            rook
+                            transfers beside the king.</li>
+                        <li>You can only castly if there are no pieces between the two pieces. And the king is not
+                            under
+                            check
+                            or the
+                            square that the king must pass over is controlled by an opponent's piece.</li>
+                    </ol>
+                </div>
+                <div class="learn-content-image">
+                    <img class="move-demo" src="images/kingMove.svg" alt="demo">
+                </div>
+            </div>
+
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>Rules of Chess</h2>
+                    <p>Chess is a gamed played by two players and certain rules must be followed in order to play
+                        correctly.
+                        These
+                        rules
+                        are created by FIDE(International Chess Federation).</p>
+                    <p class="article">See for further references:</p>
+                    <a class="anchor" href="https://www.chessvariants.com/fidelaws.html" target="_blank">F.I.D.E.
+                        Laws
+                        of
+                        Chess</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-name">
+            <a class="copyright" href="index.html">© 2020 Leif Gio Villanueva | leifdomain
+            </a>
+        </div>
+        <div class="footer-links">
+            <ul class="footer-links-a">
+                <li>
+                    <a class="link-footer"
+                        href="https://www.youtube.com/channel/UCQykkb9QWbNoQpNeJmcPTRA?view_as=subscribe"
+                        target="_blank">youtube
+                    </a>|
+                </li>
+                <li>
+                    <a class="link-footer" href="https://lichess.org/@/Leifgio" target="_blank">lichess </a>|
+                </li>
+                <li>
+                    <a class="link-footer" href="https://www.chess.com/member/leifgio" target="_blank">chess.com</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

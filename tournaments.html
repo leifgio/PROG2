@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tournaments</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/title-logo.svg">
+</head>
+
+<body>
+  <!-- The tournaments page is like the exam schedule for students, we can assess the students if they learn on the website -->
+
+  <nav class="fixed">
+    <a class="nav-logo" href="index.html"><img src="images/logo.svg" alt="logo" class="logo"></a>
+    <ul class="menu">
+      <li class="menu-item"><a href="learn.html" class="menu-link">learn</a></li>
+      <li class="menu-item"><a href="board.html" class="menu-link">board</a></li>
+      <li class="menu-item"><a href="newsletter.html" class="menu-link">newsletter</a></li>
+      <li class="menu-item"><a href="tournaments.html" class="menu-link">tournaments</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <label class="switch">
+      <input type="checkbox" id="toggle" class="toggle">
+      <span class="slider round"></span>
+    </label>
+    <!-- Using tables makes the organization of tournaments easier -->
+    <div class="tournament">
+      <div class="tournament-content">
+
+        <div class="tournament-content-table">
+          <table class="table">
+            <caption>Upcoming Tournaments</caption>
+            <tr>
+              <th>Date</th>
+              <th>Event</th>
+              <th>Location</th>
+            </tr>
+            <tr>
+              <td>November 13, 2020</td>
+              <td>Online Rapid Tournament</td>
+              <td>chess.com</td>
+            </tr>
+            <tr>
+              <td>November 20, 2020</td>
+              <td>Online Blitz Tournament</td>
+              <td>lichess.org</td>
+            </tr>
+            <tr>
+              <td>November 27, 2020</td>
+              <td>Online Bullet Tournament</td>
+              <td>lichess.org</td>
+            </tr>
+          </table>
+
+          <table class="table">
+            <caption>Previous Tournaments</caption>
+            <tr>
+              <th>Date</th>
+              <th>Event</th>
+              <th>Location</th>
+              <th>Winner</th>
+            </tr>
+            <tr>
+              <td>October 16, 2020</td>
+              <td>Online Rapid Tournament</td>
+              <td>chess.com</td>
+              <td>leifgio</td>
+            </tr>
+            <tr>
+              <td>October 23, 2020</td>
+              <td>Online Blitz Tournament</td>
+              <td>lichess.org</td>
+              <td>dontony</td>
+            </tr>
+            <tr>
+              <td>October 30, 2020</td>
+              <td>Online Bullet Tournament</td>
+              <td>lichess.org</td>
+              <td>twofoxniel</td>
+            </tr>
+          </table>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <footer>
+    <div class="footer-name">
+      <a class="copyright" href="index.html">© 2020 Leif Gio Villanueva | leifdomain
+      </a>
+    </div>
+    <div class="footer-links">
+      <ul class="footer-links-a">
+        <li>
+          <a class="link-footer" href="https://www.youtube.com/channel/UCQykkb9QWbNoQpNeJmcPTRA?view_as=subscribe"
+            target="_blank">youtube
+          </a>|
+        </li>
+        <li>
+          <a class="link-footer" href="https://lichess.org/@/Leifgio" target="_blank">lichess </a>|
+        </li>
+        <li>
+          <a class="link-footer" href="https://www.chess.com/member/leifgio" target="_blank">chess.com</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>

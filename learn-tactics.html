@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn - Tactics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/title-logo.svg">
+</head>
+
+<body>
+
+    <nav class="fixed">
+        <a class="nav-logo" href="index.html"><img src="images/logo.svg" alt="logo" class="logo"></a>
+        <ul class="menu">
+            <li class="menu-item"><a href="learn.html" class="menu-link">learn</a></li>
+            <li class="menu-item"><a href="board.html" class="menu-link">board</a></li>
+            <li class="menu-item"><a href="newsletter.html" class="menu-link">newsletter</a></li>
+            <li class="menu-item"><a href="tournaments.html" class="menu-link">tournaments</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <label class="switch">
+            <input type="checkbox" id="toggle" class="toggle">
+            <span class="slider round"></span>
+        </label>
+        <a class="top" href="#" target="_top">back to top</a>
+
+        <div class="learn">
+            <div class="learn-title">
+                <div class="learn-title-title">
+                    <h1>Chess Tactics
+                    </h1>
+                    <p>Tactics support the player’s strategy while destroying the opponent’s strategy. In general,
+                        tactics are maneuvers that take advantage of short-term opportunities. A simple tactic is enough
+                        to win the game if you are able to maintain your advantage throughout the game. Some tactics are
+                        made up of combinations and patterns so you need to train to be able to execute these tactics.
+                    </p>
+                </div>
+            </div>
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>Pins</h2>
+                    <p>When you attack an opponent’s piece and he cannot move without losing a different piece with
+                        greater value. The pin is the most common tactic that is used in chess. Take note every piece is
+                        vulnerable to a pin but only a Queen, Rook, and Bishop can do the pin.</p>
+
+                    <h3>Absolute pin</h3>
+                    <p>A pinned piece direclty to the king. It prevents the pinned piece from moving. In other words
+                        absolute pin indirectly attacks the opponent’s King.</p>
+                    <img class="learn-photo" src="images/pin_absolute.svg" alt="pinned piece">
+                    <p></p>
+                    <h3>Relative pin</h3>
+                    <p>In contrast to absolute pin here you can move the piece but it may result to a greater loss in
+                        material than the pinned piece.
+                    </p>
+                    <img class="learn-photo" src="images/pin_relative.svg" alt="pinned piece">
+                </div>
+            </div>
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>Skewer</h2>
+                    <p>It is like a pin but in reverse, the attacker’s objective is to threaten a valuable piece and
+                        force it to move and capture the piece behind it. </p>
+                    <img class="learn-photo" src="images/skewer.svg" alt="skewers">
+                </div>
+            </div>
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>Deflection</h2>
+                    <p>In the deflection, you are forcing a move to remove the defender of an opponent’s piece. Here you
+                        can exploit an overworked piece. This tactic is a little complicated because it is usually a
+                        combination of moves.</p>
+                    <img class="learn-photo" src="images/deflection.svg" alt="deflection">
+                </div>
+            </div>
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>Forks</h2>
+                    <p>These are tactical maneuvers in which a piece or pawn attacks two opponent pieces at the same
+                        time. A common misconception in forks is many think that only a Knight can fork pieces actually,
+                        all pieces can create a fork including the King.</p>
+                    <img class="learn-photo" src="images/fork.svg" alt="fork">
+                </div>
+            </div>
+            <div class="learn-content">
+                <div class="learn-content-topic">
+                    <h2>Decoy</h2>
+                    <p>So far it is the most satisfying tactic in chess. The idea of the decoy is to force a piece to
+                        move in a square to execute your attack. Decoy is usually a piece of sacrifice but in return, it
+                        will be converted to your advantage. In the example below first we want to move the Bishop and
+                        attack the queen. Queen is forced to capture the Bishop. In the next move we will fork the King
+                        and Queen and win material.</p>
+                    <img class="learn-photo" src="images/decoy.svg" alt="decoy">
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-name">
+            <a class="copyright" href="index.html">© 2020 Leif Gio Villanueva | leifdomain
+            </a>
+        </div>
+        <div class="footer-links">
+            <ul class="footer-links-a">
+                <li>
+                    <a class="link-footer"
+                        href="https://www.youtube.com/channel/UCQykkb9QWbNoQpNeJmcPTRA?view_as=subscribe"
+                        target="_blank">youtube
+                    </a>|
+                </li>
+                <li>
+                    <a class="link-footer" href="https://lichess.org/@/Leifgio" target="_blank">lichess </a>|
+                </li>
+                <li>
+                    <a class="link-footer" href="https://www.chess.com/member/leifgio" target="_blank">chess.com</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Board</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/title-logo.svg">
+
+</head>
+
+<body>
+  <!-- The board page will serve as the homework -->
+  <nav class="fixed">
+    <a class="nav-logo" href="index.html"><img src="images/logo.svg" alt="logo" class="logo"></a>
+    <ul class="menu">
+      <li class="menu-item"><a href="learn.html" class="menu-link">learn</a></li>
+      <li class="menu-item"><a href="board.html" class="menu-link">board</a></li>
+      <li class="menu-item"><a href="newsletter.html" class="menu-link">newsletter</a></li>
+      <li class="menu-item"><a href="tournaments.html" class="menu-link">tournaments</a></li>
+    </ul>
+  </nav>
+
+
+  <main>
+    <label class="switch">
+      <input type="checkbox" id="toggle" class="toggle">
+      <span class="slider round"></span>
+    </label>
+
+
+    <div class="board ">
+
+      <div class="board-item1">
+        <div class="chessboard">
+          <div id="c-board">
+            <div class="rank" id="rank8">
+              <!-- 8th rank -->
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="r1" draggable="true" ondragstart="drag(event)" src="images/rookBlack.svg"
+                  alt="rook">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="n1" draggable="true" ondragstart="drag(event)" src="images/knightBlack.svg"
+                  alt="knight">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="b1" draggable="true" ondragstart="drag(event)" src="images/bishopBlack.svg"
+                  alt="bishop">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="q" draggable="true" ondragstart="drag(event)" src="images/queenBlack.svg"
+                  alt="queen">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="k" draggable="true" ondragstart="drag(event)" src="images/kingBlack.svg"
+                  alt="">
+              </div>
+              <div class="dark">
+                <img class="board-pic" id="b2" draggable="true" ondragstart="drag(event)" src="images/bishopBlack.svg"
+                  alt="bishop">
+              </div>
+              <div class="light">
+                <img class="board-pic" id="n2" draggable="true" ondragstart="drag(event)" src="images/knightBlack.svg"
+                  alt="knight">
+              </div>
+              <div class="dark">
+                <img class="board-pic" id="r2" draggable="true" ondragstart="drag(event)" src="images/rookBlack.svg"
+                  alt="rook">
+              </div>
+            </div>
+            <div class="rank" id="rank7">
+              <!-- 7th rank -->
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="p1" draggable="true" ondragstart="drag(event)" class="piece"
+                  src="images/pawnBlack.svg" alt="pawn">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="p2" draggable="true" ondragstart="drag(event)" class="piece"
+                  src="images/pawnBlack.svg" alt="pawn">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="p3" draggable="true" ondragstart="drag(event)" class="piece"
+                  src="images/pawnBlack.svg" alt="pawn">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="p4" draggable="true" ondragstart="drag(event)" class="piece"
+                  src="images/pawnBlack.svg" alt="pawn">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="p5" draggable="true" ondragstart="drag(event)" class="piece"
+                  src="images/pawnBlack.svg" alt="pawn">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="p6" draggable="true" ondragstart="drag(event)" class="piece"
+                  src="images/pawnBlack.svg" alt="pawn">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="p7" draggable="true" ondragstart="drag(event)" class="piece"
+                  src="images/pawnBlack.svg" alt="pawn">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="p8" draggable="true" ondragstart="drag(event)" class="piece"
+                  src="images/pawnBlack.svg" alt="pawn">
+              </div>
+            </div>
+            <div class="rank" id="rank6">
+              <!-- 6th rank -->
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+            <div class="rank" id="rank5">
+              <!-- 5th rank -->
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+            <div class="rank" id="rank4">
+              <!-- 4th rank -->
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+            <div class="rank" id="rank3">
+              <!-- 3rd rank -->
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+            <div class="rank" id="rank2">
+              <!-- 2nd rank -->
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="P1" draggable="true" ondragstart="drag(event)" src="images/pawnWhite.svg"
+                  alt="pawn">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="P2" draggable="true" ondragstart="drag(event)" src="images/pawnWhite.svg"
+                  alt="pawn">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="P3" draggable="true" ondragstart="drag(event)" src="images/pawnWhite.svg"
+                  alt="pawn">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="P4" draggable="true" ondragstart="drag(event)" src="images/pawnWhite.svg"
+                  alt="pawn">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="P5" draggable="true" ondragstart="drag(event)" src="images/pawnWhite.svg"
+                  alt="pawn">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="P6" draggable="true" ondragstart="drag(event)" src="images/pawnWhite.svg"
+                  alt="pawn">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="P7" draggable="true" ondragstart="drag(event)" src="images/pawnWhite.svg"
+                  alt="pawn">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="P8" draggable="true" ondragstart="drag(event)" src="images/pawnWhite.svg"
+                  alt="pawn">
+              </div>
+            </div>
+            <div class="rank" id="rank1">
+              <!-- 1st rank -->
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="R1" draggable="true" ondragstart="drag(event)" src="images/rookWhite.svg"
+                  alt="rook">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="N1" draggable="true" ondragstart="drag(event)" src="images/knightWhite.svg"
+                  alt="knight">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="B1" draggable="true" ondragstart="drag(event)" src="images/bishopWhite.svg"
+                  alt="bishop">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="Q" draggable="true" ondragstart="drag(event)" src="images/queenWhite.svg"
+                  alt="queen">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="K" draggable="true" ondragstart="drag(event)" src="images/kingWhite.svg"
+                  alt="king">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="B2" draggable="true" ondragstart="drag(event)" src="images/bishopWhite.svg"
+                  alt="bishop">
+              </div>
+              <div class="dark" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="N2" draggable="true" ondragstart="drag(event)" src="images/knightWhite.svg"
+                  alt="knight">
+              </div>
+              <div class="light" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img class="board-pic" id="R2" draggable="true" ondragstart="drag(event)" src="images/rookWhite.svg"
+                  alt="rook">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="board-item2">
+        <div id="captures" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <p class="padd">captures:</p>
+        </div> <!-- do this change sizeposition -->
+        <button id="form-mid" class="form-button1" onclick="flip()">flip</button>
+      </div>
+
+
+    </div>
+
+
+
+
+  </main>
+
+  <footer>
+    <div class="footer-name">
+      <a class="copyright" href="index.html">© 2020 Leif Gio Villanueva | leifdomain
+      </a>
+    </div>
+    <div class="footer-links">
+      <ul class="footer-links-a">
+        <li>
+          <a class="link-footer" href="https://www.youtube.com/channel/UCQykkb9QWbNoQpNeJmcPTRA?view_as=subscribe"
+            target="_blank">youtube
+          </a>|
+        </li>
+        <li>
+          <a class="link-footer" href="https://lichess.org/@/Leifgio" target="_blank">lichess </a>|
+        </li>
+        <li>
+          <a class="link-footer" href="https://www.chess.com/member/leifgio" target="_blank">chess.com</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
+
+<!-- 
+  notes 12-19-20:
+  * flip board - use flexbox/grid, direction reverse. function on click flip button
+  * drag and drop - drag & drop api on w3school
+  * add piece for set up board
+  * add delete piece button
+  * create function on drop, remove current piece
+-->
